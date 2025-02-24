@@ -1,0 +1,10 @@
+# Ignore everything in the data folder
+/data/*
+# But keep the data folder itself
+!/data/
+
+# Ignore everything else in workspace, but keep the folder structure
+workspace/*
+!workspace/.gitkeep
+
+.DS_Store
